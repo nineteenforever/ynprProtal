@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <link href="css/lyf.css" rel="stylesheet"/>
+    <link href="css/new.css" rel="stylesheet"/>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+        });
+    </script>
+    <!-- responsiveslides -->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- header-section-starts -->
+<div class="header" id="header">
+    <div class="header-top">
+        <div class="container">
+            <p class="location"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>平软科技，为您服务</p>
+
+            <p class="phonenum"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+ 0871-68242993</p>
+
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#"><i class="facebook"> </i></a></li>
+                    <li><a href="#"><i class="twitter"> </i></a></li>
+                    <li><a href="#"><i class="google-plus"> </i></a></li>
+                    <li><a href="#"><i class="dribble"> </i></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="logo text-center">
+            <h1><a href="index.html">Interior Design</a></h1>
+        </div>
+        <!-- navigation -->
+        <div class="navigation">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                            <li><a href="product.html">产品展示</a></li>
+                            <li><a href="customer.html">客户案例</a></li>
+                            <li><a href="news1.html">行业动态<span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="contact.html">联系我们</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="alert">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <h3>专注品质！</h3>
+    <p><strong>解决问题，提高效率。</strong></p>
+</div>
+
+<div class="news">
+    <div class="container">
+        <h1 class="hdng">新闻 & 动态</h1>
+        <h2 class="hdng-two">紧跟时代的步伐，走在行业的前面。</h2>
+        <div class="news-info">
+            <div class="col-md-6 news-grids">
+                <div class="news-grids-left">
+                    <img src="images/news1.jpg" class="img-circle img-responsive" alt="/">
+                </div>
+                <div class="news-grids-right">
+                    <h5> 从天使投资人那里获得资金的12个建议</h5>
+                    <p>当你需要融资的时候，天使投资人在你眼里就是真正的“天使”。......</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="col-md-6 news-grids">
+                <div class="news-grids-left">
+                    <img src="images/news2.jpg" class="img-circle img-responsive" alt="/">
+                </div>
+                <div class="news-grids-right">
+                    <h5>谷歌上市10周年，我知道的一些鲜为人知的事情</h5>
+                    <p>早期的谷歌技术和现在一样好么，广告是谷歌一开始就坚定的营收方向么？</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="col-md-6 news-grids">
+                <div class="news-grids-left">
+                    <img src="images/news3.jpg" class="img-circle img-responsive" alt="/">
+                </div>
+                <div class="news-grids-right">
+                    <h5> 定义一切的智能硬件设备之APP定制开发</h5>
+                    <p>不论你是智能硬件从业者，还是智能硬件爱好者，不妨统一称之为“智能硬件er”。在信息泛滥的时代......</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="col-md-6 news-grids">
+                <div class="news-grids-left">
+                    <img src="images/news4.jpg" class="img-circle img-responsive" alt="/">
+                </div>
+                <div class="news-grids-right">
+                    <h5> July 15, 2015</h5>
+                    <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt
+                        ut labore et dolore magnam aliquam quaerat voluptatem </p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="col-md-6 news-grids">
+                <div class="news-grids-left">
+                    <img src="images/news1.jpg" class="img-circle img-responsive" alt="/">
+                </div>
+                <div class="news-grids-right">
+                    <h5> June 20, 2015</h5>
+                    <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt
+                        ut labore et dolore magnam aliquam quaerat voluptatem </p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="col-md-6 news-grids">
+                <div class="news-grids-left">
+                    <img src="images/news2.jpg" class="img-circle img-responsive" alt="/">
+                </div>
+                <div class="news-grids-right">
+                    <h5> June 9, 2015</h5>
+                    <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt
+                        ut labore et dolore magnam aliquam quaerat voluptatem </p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyrights col-md-10">
+                <p>Copyright &copy; 2015 云南平软科技有限公司</p>
+            </div>
+            <div class="go-top col-md-2">
+                <a href="#header" class="scroll"><span class="glyphicon glyphicon-chevron-up"></span></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- footer-section -->
+<!---->
+<!--index的东西-->
+<div id="cate" class="categories">
+    <div class="container">
+        <div class="cat-head">
+            <h3>Latest Designs</h3>
+        </div>
+        <div class="categorie-grids cs-style-1">
+            <div class="col-md-4 cate-grid grid">
+                <figure>
+                    <img src="images/c1.jpg" alt="">
+                    <figcaption>
+                        <h4>仓储物流管理系统</h4>
+                        <span>Warehouse Logistics Management System</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4 cate-grid grid">
+                <figure>
+                    <img src="images/c2.jpg" alt="">
+                    <figcaption>
+                        <h4>盘点管理系统</h4>
+                        <span>Inventory Management System</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4 cate-grid grid">
+                <figure>
+                    <img src="images/c3.jpg" alt="">
+                    <figcaption>
+                        <h4>营销管理系统</h4>
+                        <span>Marketing Management System</span>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-4 cate-grid grid">
+                <figure>
+                    <img src="images/c4.jpg" alt="">
+                    <figcaption>
+                        <h4>质检管理系统</h4>
+                        <span>Quality control management system</span>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-4 cate-grid grid">
+                <figure>
+                    <img src="images/c5.jpg" alt="">
+                    <figcaption>
+                        <h4>ERP管理系统</h4>
+                        <span>ERP management system</span>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-4 cate-grid grid">
+                <figure>
+                    <img src="images/c6.jpg" alt="">
+                    <figcaption>
+                        <h4>INCA 英克灵智3</h4>
+                        <span>INCA Euro RSCG</span>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

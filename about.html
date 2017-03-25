@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- web fonts -->
+    <link href="css/lyf.css" rel="stylesheet"/>
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
+    <!-- responsiveslides -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+        });
+    </script>
+    <!-- responsiveslides -->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- header-section-starts -->
+<div class="header" id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="col-md-3" align="center">
+                <p class="indexlogo_img"></p>
+            </div>
+            <div class="col-md-9">
+                <p class="location" align="right" style="display: block;height:60px;line-height: 65px;width: 90%;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>平软科技，为客户创造价值</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <!--<div class="logo text-center">-->
+            <!--<h1><a href="#">PingRuan Soft</a></h1>-->
+        <!--</div>-->
+        <!-- navigation -->
+        <div class="navigation">
+            <div class="container">
+                <nav class="navbar navbar-default">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">首页</a></li>
+                            <li class="active"><a href="about.html">关于我们<span class="sr-only">(current)</span></a></li>
+                            <li><a href="product.html">产品展示</a></li>
+                            <li><a href="customer.html">客户案例</a></li>
+                            <li><a href="news.html">行业动态</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="alert">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <h3>感谢关注！</h3>
+    <p><strong>公司正参与申请国家高新技术企业认定!</strong></p>
+</div>
+<div class="about-content">
+    <div class="who_we_are">
+        <div class="container">
+            <div class="about-top">
+                <header>
+                    <h2 class="heading text-center">平软简介<small>Who We Are</small></h2>
+                </header>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;2008年一批满怀热血的青年，带着自己的理想和经验成立了云南平软科技有限公司。这是年轻人的团队，在无数次历练中形成公司特有理念，经过实践研发出了特色软件产品，在企业应用中取得优秀效果，得到企业好评和认可。公司长期致力于提供软件应用开发定制服务、专业管理服务、专业信息化服务、一站式系统解决方案。以团队的精神和力量，着眼于未来，发展成为领域性的、特色的、专业的软件开发团队和管理团队，立志成为优秀的行业软件领跑企业。<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;公司以软件开发为主营业务，开发范围包含行业软件开发和定制、基础平台研发、软硬件结合开发等，公司通过持续研发和实践于企业管理，研发团队积累了丰富的行业管理理念、经验，奠定成为一个行业软件领跑企业的基础，现行在远航的路上。<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp; 公司秉承企业、团队与客户共同成长的理念，实现共赢，如果你有一颗热血的心，如果你正在为自己的理想寻找一个舞台，请加入我们，一起来去实现梦想。</p>
+
+            </div>
+            <div class="abt_img"><img src="images/prkj.jpg" alt=""></div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="why_choose_us text-center">
+        <div class="container">
+            <div class="row">
+                <header>
+                    <h1 class="advantage">我们的优势<small class="span1">Why choose Us</small></h1>
+                </header>
+            </div>
+            <div class="col-md-4 whyus">
+                <div>
+                    <span>01</span>
+                    <h3>专业管理服务</h3>
+                    <p>libero. Nunc hendrerit augue vel tempor posuere. Cras consectetur.</p>
+                </div>
+            </div>
+            <div class="col-md-4 whyus">
+                <div>
+                    <span>02</span>
+                    <h3>专业信息化服务</h3>
+                    <p>libero. Nunc hendrerit augue vel tempor posuere. Cras consectetur.</p>
+
+                </div>
+            </div>
+            <div class="col-md-4 whyus">
+                <div>
+                    <span>03</span>
+                    <h3>一站式系统解决方案</h3>
+                    <p>libero. Nunc hendrerit augue vel tempor posuere. Cras consectetur.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1 class="about1">核心价值<small class="span1">Core Value</small></h1>
+        <div class="about-text">
+            <div class="col-md-6">
+                <img src="images/g5.jpg" class="img-responsive" alt=""/>
+            </div>
+            <div class="col-md-6 about_coreValue">
+                <ul>
+                    <li class="text-left"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">帮助客户建议管理标准</a></li>
+                    <li class="text-left"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">让管理意志真正能够有效的落地执行</a></li>
+                    <li class="text-left"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">追求客户实际工作中整体工作能效</a></li>
+                    <li class="text-left"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">是管理脱离对个体的依赖</a></li>
+                    <li class="text-left"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">让管理得到有效的传承</a></li>
+                    <li class="text-left"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">使管理者中心战略战略管理中而不是具体的事物中</a></li>
+                    <li class="text-left"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">减少人的工作强度,让人关注到真正需要的重点要项中</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
+    <div class="team text-center" >
+        <header>
+            <h1>我们的团队<small class="span1">Our Team</small></h1>
+        </header>
+        <section class="main">
+
+            <ul class="ch-grid">
+                <li>
+                    <div class="ch-item ch-img-1">
+                        <div class="ch-info">
+                            <h4>李雪然</h4>
+
+                            <p>法人代表 总经理</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item ch-img-2">
+                        <div class="ch-info">
+                            <h4>高锋</h4>
+
+                            <p>市场部负责人 副总经理</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item ch-img-3">
+                        <div class="ch-info">
+                            <h4>宋朝东</h4>
+
+                            <p>高级架构师 技术总监</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+    </div>
+</div>
+<!-- footer-section -->
+<div class="footer">
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyrights col-md-10">
+                <p align="center">Copyright &copy; 2015 云南平软科技有限公司</p>
+            </div>
+            <div class="go-top col-md-2">
+                <a href="#header" class="scroll"><span class="glyphicon glyphicon-chevron-up"></span></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- footer-section -->
+<!---->
+
+</body>
+</html>

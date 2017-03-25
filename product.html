@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <link href="css/lyf.css" rel="stylesheet"/>
+    <link href="css/product.css" rel="stylesheet"/>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+        });
+    </script>
+    <!-- responsiveslides -->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- header-section-starts -->
+<div class="header" id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="col-md-3" align="center">
+                <p class="indexlogo_img"></p>
+            </div>
+            <div class="col-md-9">
+                <p class="location" align="right" style="display: block;height:60px;line-height: 65px;width: 90%;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>平软科技，为客户创造价值</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <!--<div class="logo text-center">-->
+            <!--<h1><a href="#">PingRuan Soft</a></h1>-->
+        <!--</div>-->
+        <div class="navigation">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                            <li class="active"><a href="product.html">产品展示<span class="sr-only">(current)</span></a></li>
+                            <li><a href="customer.html">客户案例</a></li>
+                            <li><a href="news.html">行业动态</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="alert">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <h3>专注品质！</h3>
+    <p><strong>解决问题，提高效率。</strong></p>
+</div>
+
+
+<div class="gallery">
+    <!-- Page Starts Here -->
+    <div class="content">
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-top">
+                    <div class="view view-tenth">
+                        <img src="images/img1.jpg" alt=""/>
+
+                        <div class="mask">
+                            <h3>仓储物流</h3>
+
+                            <p>依托一定的物流设备、技术和物流管理信息系统，减少物流成本，提高服务水平和资金使用效益，实现的自动化、信息化和效益化，提高商品周转率和准确性。</p>
+                            <div class="readmore">
+                                <a href="http://x.eqxiu.com/s/rCv4QAGD">更多<i class="glyphicon glyphicon-menu-right"> </i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img src="images/img2.jpg" alt=""/>
+
+                        <div class="mask">
+                            <h3>盘点管理</h3>
+
+                            <p>通过一定的盘点设备，双人交叉盘点，快捷便利的录入盘点结果，准确实盘对账，实现盘点无纸化，减少盘点成本，提高盘点准确率。</p>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img src="images/img3.jpg" alt=""/>
+
+                        <div class="mask">
+                            <h3>产品营销</h3>
+
+                            <p>针对医药大包商、厂商办事处等单位，准确管理基础信息，导入销售流向，有效匹配生成备案，灵活查看各种统计分析报表。</p>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img src="images/img4.jpg" alt=""/>
+
+                        <div class="mask">
+                            <h3>质检管理</h3>
+
+                            <p>解决传统纸质质检报告要随行打印浪费丢失的问题，全网连通只需赋予资质，就可随时上传下载质检报告。</p>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img src="images/img5.jpg" alt=""/>
+
+                        <div class="mask">
+                            <h3>医药ERP</h3>
+
+                            <p>将企业的各方面资源（信息、人力、资金、设备、时间、方法等方面）进行优化、整合，
+                                使企业的管理手段和管理水平产生质的飞跃。
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img src="images/img6.jpg" alt=""/>
+
+                        <div class="mask">
+                            <h3>英克灵智</h3>
+
+                            <p>英克灵智医药管理软件，是医药行业专业化、智能化管理软件的领导者，具有“医药行业企管专家”的美称。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyrights col-md-10">
+                <p align="center">Copyright &copy; 2015 云南平软科技有限公司</p>
+            </div>
+            <div class="go-top col-md-2">
+                <a href="#header" class="scroll"><span class="glyphicon glyphicon-chevron-up"></span></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- footer-section -->
+<!---->
+
+</body>
+</html>
